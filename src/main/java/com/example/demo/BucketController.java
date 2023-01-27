@@ -1,6 +1,5 @@
 package com.example.demo;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,7 +13,6 @@ public class BucketController {
 
     private AmazonClient amazonClient;
 
-    @Autowired
     BucketController(AmazonClient amazonClient) {
         this.amazonClient = amazonClient;
     }

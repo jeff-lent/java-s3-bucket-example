@@ -1,5 +1,5 @@
 amazonProperties:
   endpointUrl: https://s3.us-east-1.amazonaws.com
-  accessKey: AKIA4HFV4LGCQCGJUPLR
-  secretKey: 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
-  bucketName: user-profile-service-bucket
+  accessKey: AKIA4S72HKPKENGI2FOC
+  secretKey: 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
+  bucketName: user-profile-service-bucket-jeff
